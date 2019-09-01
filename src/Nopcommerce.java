@@ -31,7 +31,7 @@ public class Nopcommerce {
         //click on email on friend
         driver.findElement(By.xpath("//input[@value='Email a friend']")).click();
         //enter friend mail
-        driver.findElement(By.xpath("//input[@id='FriendEmail']")).sendKeys("devjoshisoft@gmail.com");
+        driver.findElement(By.xpath("//input[@id='FriendEmail']")).sendKeys("milankg18@gmail.com");
         //enter your mail id
         driver.findElement(By.xpath("//input[@id='YourEmailAddress']")).click();
         //write personal message

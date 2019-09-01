@@ -25,7 +25,7 @@ public class OrangeHrm {
         //click on welcome admin
         driver.findElement(By.xpath("//a[contains(@class,'gger')]")).click();
         //click on log out button
-        driver.findElement(By.xpath("//a[contains(@href,'auth')]")).click();
+        driver.findElement(By.linkText("Logout")).click();
         //driver.close
 
 
