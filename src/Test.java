@@ -24,7 +24,7 @@ public class Test {
         driver.findElement(By.id("FirstName")).sendKeys("Dev");
         //enter lastname
         driver.findElement(By.xpath("//input[@name='LastName']")).sendKeys("Joshi");
-        driver.findElement(By.name("Email")).sendKeys("tester@test.com");
+        driver.findElement(By.name("Email")).sendKeys("tester1@test.com");
         //enter password
         driver.findElement(By.xpath("//input[@id='Password']")).sendKeys("1234567");
         //enter confirm password

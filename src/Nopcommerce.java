@@ -21,7 +21,7 @@ public class Nopcommerce {
         driver.findElement(By.xpath("//a[@class='ico-login']")).click();
 
         //enter mail id
-        driver.findElement(By.name("Email")).sendKeys("tester@test.com");
+        driver.findElement(By.name("Email")).sendKeys("tester1@test.com");
         //enter password
         driver.findElement(By.xpath("//input[@id='Password']")).sendKeys("1234567");
         //click on login
@@ -36,7 +36,7 @@ public class Nopcommerce {
         driver.findElement(By.xpath("//input[@id='YourEmailAddress']")).click();
         //write personal message
         driver.findElement(By.xpath("//textarea[@id='PersonalMessage']")).sendKeys("Please check this out");
-//click on send mail
+        //click on send mail
         driver.findElement(By.xpath("//input[@value='Send email']")).click();
         //driver.close();
     }}
